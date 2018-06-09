@@ -3,6 +3,8 @@ Chat Application with PHP , SQL
 just one file index.php
 
 
+
+
 <?php
 session_start();
 $servername = "localhost";
