@@ -1,6 +1,14 @@
 <?php
-session_start();
-require('connection.php');
+
+$servername = "localhost";
+$username = "root";
+$password = "Akashkumar";
+
+$dbname="chat";
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+ 
+
+
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(isset($_POST['submit'])){
